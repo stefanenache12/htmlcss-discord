@@ -50,6 +50,7 @@ ul {
 li{
     display: inline;
     padding-left: 30px;
+    
   }
 
 a {
@@ -189,8 +190,12 @@ main > :nth-child(4) > :last-child > :last-child > button {
 
 /*FOOTER*/
 
-footer > :first-child {
+footer {
     background-color: rgb(50, 48, 48);
+}
+
+footer > :first-child {
+    
     padding: 40px 0;
 }
 
@@ -205,12 +210,13 @@ footer > :first-child {
 
 .col-footer {
     width: 25%;
+    justify-content: center;
 }
 
 
 footer > :last-child {
     padding: 40px 0;
-    background-color: rgb(50, 48, 48);
+    
 }
 
 footer > :last-child > .container{
@@ -218,92 +224,34 @@ footer > :last-child > .container{
     align-items: center;
 }
 
-hr{
-    margin: 10px 0;
+
+
+h3 {
+    color: #7289DA;
+    text-align: center;
+    padding-right: 50px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*DEBUG
-
-
-.header-top .container {
-    background-color: #DAA520;
-    height: 40px;
-    border: 2px dashed black;
+h2{
+    color: #7289DA;
+    font-size: 2em;
+    padding-bottom: 20px;
 }
 
-.header-bottom .container {
-    background-color: #EE82EE;
-    height: 300px;
-    border: 2px dashed black;
+footer > :first-child >:first-child > :first-child > * {
+    color: white;
 }
 
-.logo {
-    border-right: 2px dashed black;
+.icons > *{
+    padding-right: 20px;
+    padding-top: 20px;
 }
 
-.login {
-    border-left: 2px dashed black;
+.ita-flag {
+    width: 20px;
 }
 
-.col-big{
-    background-color: #1E90FF;
-    border: 2px dashed black;
+footer > :nth-child(2) > :first-child > :nth-child(2) > :first-child > :first-child {
+    background-color: #7289DA;
+    color: white;
 }
-
-.col-small {
-    background-color: #FFC0CB;
-    border: 2px dashed black;
-}
-
-.small-main-col {
-    height: 400px;
-}
-
-.big-col-main {
-    background-color: green;
-    border: 2px dashed black;
-    height: 700px;
-}
-
-.col-small-footer{
-    background-color: #F08080;
-    border: 2px dashed black;
-}
-
-.col-big-footer{
-    background-color: #20B2AA;
-    border: 2px dashed black;
-}
-
-.col-footer {
-    background-color: #20B2AA;
-    border: 2px dashed white;
-}
-
-footer > :first-child > :first-child {
-    height: 400px;
-}
-
-footer > :last-child {
-    height: 100px;
-}
-
-footer > :last-child > * {
-    background-color: #F08080;
-    border: 2px dashed black;
-} */
