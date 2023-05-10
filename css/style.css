@@ -1,0 +1,258 @@
+/*RESET*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*GENERAL*/
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+/*HEADER*/
+
+
+/*HEADER TOP*/
+
+.header-top {
+    background-color: #255EE9;
+}
+
+.container .logo,.login{
+    width: 20%;
+    padding-top: 10px;
+}
+
+.login{
+    text-align: right;
+}
+
+nav{
+    width: 60%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    padding-top: 10px;
+  }
+  
+
+li{
+    display: inline;
+    padding-left: 30px;
+  }
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: medium;
+}
+
+.button{
+    background-color: white;
+    color: black;
+    border-radius: 40px;
+    padding: 10px 20px;
+}
+
+  /*HEADER BOTTOM*/
+  
+.header-bottom {
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header-bottom .container {
+    width: 50%;
+    display: block;
+    text-align: center;
+    color: white;
+}
+
+.header-bottom > .container > h1{
+    font-size: 3em;
+    padding: 50px 0;
+
+}
+
+.header-bottom > .container > p {
+    font-size: 1.5em;
+    padding: 50px 0;
+
+}
+
+.header-bottom > .container > div {
+    padding-top: 50px;
+    padding-bottom: 180px;
+    
+}
+
+.header-bottom > .container > div > button {
+    margin-left: 50px;
+    padding: 10px 10px;
+    font-size: 1.2em;
+    
+}
+
+.header-bottom > .container > div > :last-child {
+    background-color: rgb(38, 38, 38);
+    color: white;
+    
+}
+
+
+ /*MAIN*/
+
+ main .container {
+    padding: 40px 0;
+ }
+
+ main > :last-child {
+    padding: 40px 0;
+ }
+
+.col-big {
+    width: 60%;
+}
+
+.col-small {
+    width: 40%;
+}
+
+.light-grey {
+    background-color: lightgrey;
+}
+
+
+
+/*FOOTER*/
+
+footer > :first-child {
+    background-color: rgb(50, 48, 48);
+    padding: 40px 0;
+}
+
+.col-small-footer{
+    width: 30%;
+}
+
+.col-big-footer{
+    width: 70%;
+    display: flex;
+}
+
+.col-footer {
+    width: 25%;
+}
+
+
+footer > :last-child {
+    padding: 40px 0;
+    background-color: rgb(50, 48, 48);
+}
+
+footer > :last-child > .container{
+    justify-content: space-between;
+    align-items: center;
+}
+
+hr{
+    margin: 10px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*DEBUG
+
+
+.header-top .container {
+    background-color: #DAA520;
+    height: 40px;
+    border: 2px dashed black;
+}
+
+.header-bottom .container {
+    background-color: #EE82EE;
+    height: 300px;
+    border: 2px dashed black;
+}
+
+.logo {
+    border-right: 2px dashed black;
+}
+
+.login {
+    border-left: 2px dashed black;
+}
+
+.col-big{
+    background-color: #1E90FF;
+    border: 2px dashed black;
+}
+
+.col-small {
+    background-color: #FFC0CB;
+    border: 2px dashed black;
+}
+
+.small-main-col {
+    height: 400px;
+}
+
+.big-col-main {
+    background-color: green;
+    border: 2px dashed black;
+    height: 700px;
+}
+
+.col-small-footer{
+    background-color: #F08080;
+    border: 2px dashed black;
+}
+
+.col-big-footer{
+    background-color: #20B2AA;
+    border: 2px dashed black;
+}
+
+.col-footer {
+    background-color: #20B2AA;
+    border: 2px dashed white;
+}
+
+footer > :first-child > :first-child {
+    height: 400px;
+}
+
+footer > :last-child {
+    height: 100px;
+}
+
+footer > :last-child > * {
+    background-color: #F08080;
+    border: 2px dashed black;
+} */
