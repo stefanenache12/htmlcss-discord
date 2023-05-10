@@ -130,6 +130,23 @@ a {
     width: 40%;
 }
 
+.info-discord1 {
+    font-size: 3.2em;
+}
+
+.info-discord2 {
+    font-size: 1.3em;
+
+}
+
+main > :nth-child(2) > :first-child > :first-child > * {
+    padding-top: 50px;
+}
+
+main > :nth-child(3) > :first-child > .col-small > * {
+    padding-top: 50px;
+}
+
 .light-grey {
     background-color: lightgrey;
 }
